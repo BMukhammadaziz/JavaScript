@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #014E56;
+    font-family: 'livvic' ;
+    color: #fff;
+}
+body.active {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: 'livvic' ;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    margin-top: 73px;
+}
+
+
+.site-header:not(:first-child) {
+    margin-left: 40px;
+}
+
+.site-header-logo {
+    width: 160px; 
+    height: 40px;
+}
+
+
+.header-item {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-inner:not(:last-child) {
+    margin-left: 80px;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.header-link:hover {
+    color: red;
+}
+
+.header-link:active {
+    color: #fff;
+}
+
+.button {
+    margin-left: auto; 
+}
+
+.btn-wrapper {
+    display: flex;
+}
+
+
+.wrapper-img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #014E56;
+    border-radius: 30px;
+}
+
+.wrapper-image {
+    margin-left: 10px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #014E56;
+    border-radius: 30px;
+}
+
+.header-text {
+    margin-top: 129px;
+    display: flex;
+    align-items: center;
+}
+
+.text-h1 {
+    margin-bottom: 250px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    width: 550px;
+    height: 200px;
+}
+
+.header-span span {
+    color: #F67E7E;
+}
+.text-span {
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: #79C8C7;
+}
+.te-span {
+    margin-bottom: 67px;
+}
+.text-p {
+    margin-bottom: 320px;
+    margin-left: 120px;
+    width: 430px;
+    height: 112px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-p.active {
+    color: #fff;
+}
